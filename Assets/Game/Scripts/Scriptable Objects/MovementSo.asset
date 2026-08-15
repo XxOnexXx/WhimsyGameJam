@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e85e855bde4b0784f8eb2c8116a5abd7, type: 3}
   m_Name: MovementSo
   m_EditorClassIdentifier: Assembly-CSharp::JellyConfig
-  rotationSpeed: 3
+  rotationSpeed: 1.5
   lookSensitivity: 2
   pitchClampAngle: 80
   pulseForce: 8

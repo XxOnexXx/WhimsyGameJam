@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: CameraFollowConfig
   m_EditorClassIdentifier: Assembly-CSharp::CameraFollowConfig
   followOffset: {x: 0, y: 2, z: -6}
-  positionSmoothTime: 0.25
-  rotationSpeed: 4
+  positionSmoothTime: 0.15
+  rotationSpeed: 5
   avoidObstacles: 1
   obstacleMask:
     serializedVersion: 2

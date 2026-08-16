@@ -9,6 +9,11 @@ public class PlayerInput : MonoBehaviour
     [Header("cursor")]
     public bool lockCursor = true;
 
+    [Range(0f, 0.3f)] public float lookSmoothTime = 0.08f;
+
+    Vector2 rawlookDelta;
+    Vector2 smoothedLookVelocity;
+
 
     void Start()
     {
@@ -21,9 +26,11 @@ public class PlayerInput : MonoBehaviour
 
 
     void Update()
-    {
-        lookDir = new Vector2(Input.GetAxis("Mouse X"), Input.GetAxis("Mouse Y"));
+    {   
+        rawlookDelta = new Vector2(Input.GetAxisRaw("Mouse X"), Input.GetAxisRaw("Mouse Y"));
 
+        lookDir = Vector2.SmoothDamp(lookDir, rawlookDelta, ref smoothedLookVelocity, lookSmoothTime);
+        
         pulseInput = Input.GetButtonDown("Fire1") || Input.GetKeyDown(KeyCode.Space);
 
         if(Input.GetKeyDown(KeyCode.Escape))

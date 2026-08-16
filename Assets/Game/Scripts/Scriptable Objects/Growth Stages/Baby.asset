@@ -15,7 +15,7 @@ MonoBehaviour:
   stageName: Baby
   xpThreshold: 0
   targetScale: 0.5
-  visualPrefab: {fileID: 7300276671653575209, guid: 9e32f1b3920eb054d8d843ac39e4a2e6, type: 3}
+  visualPrefab: {fileID: 1712019461910611600, guid: 5ca2f9319d1046141aff89eaaddf0acc, type: 3}
   movementConfigOverride: {fileID: 11400000, guid: b04f0668494405e4588d0f52fb448fc1, type: 2}
   cameraConfigOverride: {fileID: 11400000, guid: 23f35c5d782fa61449f74d42de6aac76, type: 2}
   evolveVFXPrefab: {fileID: 0}

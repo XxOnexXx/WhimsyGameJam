@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e85e855bde4b0784f8eb2c8116a5abd7, type: 3}
   m_Name: Giant_MovementSo
   m_EditorClassIdentifier: Assembly-CSharp::JellyConfig
-  rotationSpeed: 1.2
-  lookSensitivity: 2
+  rotationSpeed: 0.75
+  lookSensitivity: 1
   pitchClampAngle: 80
   pulseForce: 15
   pulseCooldown: 0.4

@@ -13,9 +13,9 @@ MonoBehaviour:
   m_Name: Adult
   m_EditorClassIdentifier: Assembly-CSharp::JellyFishStage
   stageName: Adult
-  xpThreshold: 5
+  xpThreshold: 1
   targetScale: 1
-  visualPrefab: {fileID: 1374512886774368119, guid: cdd1edcb4fc09674a820d9710c07cef1, type: 3}
+  visualPrefab: {fileID: 5039900831805729875, guid: dad557348b06e96409a871b304e9a9d4, type: 3}
   movementConfigOverride: {fileID: 11400000, guid: bf553c8866dc19041810199a8a2f9fd1, type: 2}
   cameraConfigOverride: {fileID: 0}
   evolveVFXPrefab: {fileID: 0}

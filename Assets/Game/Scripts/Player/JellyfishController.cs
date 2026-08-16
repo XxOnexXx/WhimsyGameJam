@@ -71,7 +71,7 @@ public class JellyfishController : MonoBehaviour
 
         Quaternion targetRot = Quaternion.Euler(pitch, yaw, 0f);
 
-        transform.rotation = Quaternion.Slerp(transform.rotation, targetRot, 1f - Mathf.Exp(-config.rotationSpeed * Time.deltaTime));
+        rb.MoveRotation(Quaternion.Slerp(rb.rotation, targetRot, 1f - Mathf.Exp(-config.rotationSpeed * Time.fixedDeltaTime)));
     }
 
     void Pulse()

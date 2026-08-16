@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e85e855bde4b0784f8eb2c8116a5abd7, type: 3}
   m_Name: Adult_MovementSO
   m_EditorClassIdentifier: Assembly-CSharp::JellyConfig
-  rotationSpeed: 2
-  lookSensitivity: 2
+  rotationSpeed: 1
+  lookSensitivity: 1
   pitchClampAngle: 80
   pulseForce: 11
   pulseCooldown: 0.6

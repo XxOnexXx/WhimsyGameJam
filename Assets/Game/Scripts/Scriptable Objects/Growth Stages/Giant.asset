@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82bf85da6457c2245aa0413da7220404, type: 3}
+  m_Name: Giant
+  m_EditorClassIdentifier: Assembly-CSharp::JellyFishStage
+  stageName: Giant
+  xpThreshold: 10
+  targetScale: 1
+  visualPrefab: {fileID: 6885894815368590555, guid: 2b744f5024c8b744dae6f713533b6fa7, type: 3}
+  movementConfigOverride: {fileID: 11400000, guid: 25242f7933fb2544b9dc121be8f412ab, type: 2}
+  cameraConfigOverride: {fileID: 0}
+  evolveVFXPrefab: {fileID: 0}
+  evolveSFX: {fileID: 0}
+  evolveAnimTrigger: Evolve

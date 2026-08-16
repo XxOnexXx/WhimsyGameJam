@@ -117,4 +117,9 @@ public class JellyfishController : MonoBehaviour
     {
         config = newConfig;
     }
+
+     public void SetAnimator(Animator newAnimator)
+    {
+        anim = newAnimator;
+    }
 }

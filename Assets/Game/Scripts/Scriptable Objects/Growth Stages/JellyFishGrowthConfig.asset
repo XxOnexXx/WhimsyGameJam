@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ffdff36c49d59cd4884417a59ef7fdd3, type: 3}
+  m_Name: JellyFishGrowthConfig
+  m_EditorClassIdentifier: Assembly-CSharp::JellyGrowthConfig
+  stages:
+  - {fileID: 11400000, guid: 89fc6083e9177d848970f72b254345b3, type: 2}
+  - {fileID: 11400000, guid: b3b6c60925cadf84287e455a61a36f21, type: 2}
+  - {fileID: 11400000, guid: 6af629d6519d0a74e95ad2fced113dc9, type: 2}
